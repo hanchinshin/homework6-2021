@@ -48,7 +48,6 @@ header{
   /*Your code here.*/
   /*Take a look at flex-basis*/
   flex-basis: 400px;
-
 }
 
 /*Requirement 6*/
@@ -154,7 +153,7 @@ header{
   /*Requirement 16*/
   .price {
     flex-wrap: nowrap;
-    flex-direction: row;
+    align-items:flex-end;
   }
   /*Requirement 17*/
   .package{
